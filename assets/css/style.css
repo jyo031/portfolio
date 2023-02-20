@@ -618,6 +618,22 @@ section .container {
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
+/* Button styles */
+.download-button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
 .resume .resume-title {
   font-size: 26px;
   font-weight: 700;
@@ -1184,4 +1200,21 @@ section .container {
 
 .credits a:hover {
   color: #fff;
+}
+
+
+/* Button Responsive styles */
+@media (max-width: 768px) {
+  .download-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .download-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
